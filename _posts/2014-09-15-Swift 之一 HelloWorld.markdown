@@ -28,6 +28,24 @@ let test = "hello " + String(code);
 let string = "i have \(code)  apple";
 {% endhighlight %}  
 
+{% highlight swift %}
+#定义数组
+var array = ["apple", "fruit", "tree"]
+
+#定义字典
+var map=["opiton1":"tree", "option2":"apple"]
+{% endhighlight %}  
+
+
+#控制流
+{% highlight swift %}
+for tst  in array
+{
+    println(tst)
+}
+{% endhighlight %}  
+
+
 
 
 
