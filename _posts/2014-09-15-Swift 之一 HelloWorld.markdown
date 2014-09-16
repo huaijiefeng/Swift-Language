@@ -17,6 +17,19 @@ var code = 1
 
 #let 生命常量
 let LABEL = "THIS IS A FLAG"
-{% endhighlight %}
+{% endhighlight %}  
+
+#转字符串
+{% highlight swift %}
+#第一种方式
+let test = "hello " + String(code);
+
+#第二种方式
+let string = "i have \(code)  apple";
+{% endhighlight %}  
+
+
+
+
 
 
